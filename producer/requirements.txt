@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+boto3
+aio_pika
+python-multipart
