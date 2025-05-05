@@ -1,6 +1,6 @@
-# dam-pipeline
+# dam-pipeline-fastapi-clip
 
-A decoupled, async processing pipeline for digital asset management using FastAPI, RabbitMQ, Cloudflare R2, and PyTorch models for image analysis.
+A decoupled, async processing pipeline for digital asset management using **FastAPI** for the API, **RabbitMQ** for queuing, **Cloudflare R2** for storage, and **PyTorch CLIP** models for image vectorization and BLIP for image captioning.
 
 ## Overview
 
@@ -52,7 +52,6 @@ fly -a dam-producer deploy
 fly apps create dam-worker
 fly -a dam-worker deploy
 ```
-
 
 ## Test Upload
 
