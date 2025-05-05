@@ -1,4 +1,4 @@
-# dam-pipeline-bento
+# dam-pipeline
 
 A decoupled, async processing pipeline for digital asset management using FastAPI, RabbitMQ, Cloudflare R2, and PyTorch models for image analysis.
 
